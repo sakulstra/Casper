@@ -1,3 +1,10 @@
+# Introduction
+This is a fork of casper implementing google's suggestions for progressive web apps https://developers.google.com/web/progressive-web-apps/
+In ghost 0.9 it's possible to add a manifest.json in root, so there are no other obstacles left to implement app like behavior in ghost themes.
+This is a work in progress - the service worker is pretty much copy pasted and doesn't do anything intelligent yet.
+
+This probably won't work with subdirectories yet.
+
 # Casper
 
 The default theme for [Ghost](http://github.com/tryghost/ghost/).

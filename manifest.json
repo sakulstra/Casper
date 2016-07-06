@@ -1,0 +1,16 @@
+{
+    "lang": "en",
+    "short_name": "domain.com",
+    "name": "PWA for domain.com",
+    "icons": [
+        {
+            "src": "/assets/pwa/icons/icon_144.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        }
+    ],
+    "start_url": "/",
+    "display": "browser",
+    "background_color": "#ffffff",
+    "theme_color": "#ffffff"
+}

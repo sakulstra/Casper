@@ -54,3 +54,15 @@
 
     };
 })(jQuery);
+
+// check if Service Worker is supported
+if ('serviceWorker' in navigator) {
+    // register the Service Worker, must be in the root directory to have site-wide scope...
+    navigator.serviceWorker.register('/sw.js')
+        .then(function() {
+            console.log('ServiceWorker registration succeeded');
+        }).catch(function(err) {
+            console.log('ServiceWorker registration failed: ', err);
+        });
+}
+
